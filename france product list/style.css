@@ -1,0 +1,117 @@
+body{
+    background-color: black;
+}
+.main{
+    width: 950px;
+    margin: auto;
+    background-color: rgb(54, 40, 40);
+    height: 900px;
+    
+
+}
+.main>.heading{
+    margin: auto;
+    text-align: center;
+}
+.main>.heading>h1{
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+
+    color: rgb(235, 60, 60);
+}
+.main>.heading>h2{
+    color: palevioletred;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: initial;
+    font-family:   'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.main>.lanti{
+    background-image: url("./images/lanti.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70%;
+    width: 90%;
+    background-size: cover;
+    margin: auto;
+   
+}
+.main>.lanti>img{
+    position: relative;
+    left: 15%;
+    opacity: 0.6;
+    width: 70%;
+}
+.products{
+    width: 80%;
+    margin: auto;   
+    text-align: center; 
+}
+.products>h1>img{
+    height: 200px;
+    width: 60%;
+    
+
+
+}
+.products>h2{
+    font-size: 50px;
+    font-weight: bolder;
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 40px;
+}
+.products>h3{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 40px;
+}
+.products>h4{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #cccccc;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 40px;
+}
+.products>img{
+    width: 100%;
+    display: inline-block;  
+}
+.cross{
+    width: 80%;
+    margin: auto; 
+    display: inline-block;  
+    
+}
+.cross>img{
+    width: 90%;
+    /* position: relative;
+    bottom: 750px; */
+    opacity: 0.5;
+    display: inline-block;  
+}
+.most>h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 40px;
+}
+.most{
+   margin: auto;
+}
+.most>.images>a>img{
+    width: 200px;
+    margin: auto
+
+}
